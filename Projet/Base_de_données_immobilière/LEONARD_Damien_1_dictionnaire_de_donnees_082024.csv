@@ -1,0 +1,16 @@
+,,,,,,
+DICTIONNAIRE DES DONNÉES - Bien,,,,,,
+,,,,,,
+,,,,,,
+CODE,SIGNIFICATION,TYPE,LONGUEUR,NATURE,REGLE DE GESTION,REGLE DE CALCUL
+Id_bien,"ID dans la base de données, clef primaire",Varchar,50,Elémentaire,Ne doit pas être nul,
+Id_codedep_codecom,Numero concater departement et commune(clef etrangere),Varchar,10,concaténer,Ne doit pas être nul,"Concater (Code departement , Code commune)"
+Id_vente,Identifiant vente,Varchar,50,Elémentaire,Ne doit pas être nul,
+No_voie,Numéro des rues,Integer,NC,Elémentaire,,
+B/T/Q,Indicateur éventuel de répétition pour l'adresse du logement assuré sur un caractère,Varchar,1,Elémentaire,,
+Type_de_voie,"Plusieurs valeurs (rue, avenue, chemin, etc.)",Varchar,4,Elémentaire,,
+Voie,Nom de la rue,Varchar,50,Elémentaire,,
+Total pièces,Nombres de pieces a vivre,Integer,2,Elémentaire,Ne doit pas être nul,
+Surface Carrez ,Surface m² du 1er lot CARREZ,Float,NC,Elémentaire,,
+Surface local,Nombre m² local,Integer,NC,Elémentaire,,
+Type local,Indication maison ou appartement,Varchar,12,Elémentaire,,
